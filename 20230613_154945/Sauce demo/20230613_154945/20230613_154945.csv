@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sauce demo,Chrome 114.0.0.0,,,2023-06-13 15:50:04,2023-06-13 15:50:25,21.141s,PASSED
+,,,,,,,
+Test Cases/Sicepat Test/spy_object_saucedemo_variable,Chrome 114.0.0.0,melakukan pengujian application sauce_demo.com  dengan menggunakan variable harga dan memverivikasi nya,,2023-06-13 15:50:05,2023-06-13 15:50:25,20.283s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-13 15:50:06,2023-06-13 15:50:12,6.246s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 114.0.0.0,,,2023-06-13 15:50:12,2023-06-13 15:50:15,2.780s,PASSED
+"setText(findTestObject(""full senyum sayang/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 114.0.0.0,,,2023-06-13 15:50:15,2023-06-13 15:50:16,1.868s,PASSED
+"setEncryptedText(findTestObject(""full senyum sayang/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 114.0.0.0,,,2023-06-13 15:50:16,2023-06-13 15:50:17,0.692s,PASSED
+"click(findTestObject(""pacar_baru/Page_Swag Labs/login-button""))",Chrome 114.0.0.0,,,2023-06-13 15:50:17,2023-06-13 15:50:18,0.755s,PASSED
+"click(findTestObject(""full senyum sayang/Page_Swag Labs/div_Sauce Labs Backpack""))",Chrome 114.0.0.0,,,2023-06-13 15:50:18,2023-06-13 15:50:19,0.999s,PASSED
+"VAR1 = getText(findTestObject(""full senyum sayang/Page_Swag Labs/div_29.99""))",Chrome 114.0.0.0,,,2023-06-13 15:50:19,2023-06-13 15:50:19,0.541s,PASSED
+"click(findTestObject(""full senyum sayang/Page_Swag Labs/button_Add to cart""))",Chrome 114.0.0.0,,,2023-06-13 15:50:19,2023-06-13 15:50:20,0.466s,PASSED
+"click(findTestObject(""pacar_baru/Page_Swag Labs/Icon_keranjang""))",Chrome 114.0.0.0,,,2023-06-13 15:50:20,2023-06-13 15:50:20,0.548s,PASSED
+"VAR2 = getText(findTestObject(""pacar_baru/Page_Swag Labs/Link_navgate_url_Labs Backpack (1)""))",Chrome 114.0.0.0,,,2023-06-13 15:50:20,2023-06-13 15:50:21,0.491s,PASSED
+VAR3 = VAR1 == VAR2,Chrome 114.0.0.0,,,2023-06-13 15:50:21,2023-06-13 15:50:21,0.002s,PASSED
+if (VAR3),Chrome 114.0.0.0,,,2023-06-13 15:50:21,2023-06-13 15:50:21,0.006s,PASSED
+"click(findTestObject(""full senyum sayang/Page_Swag Labs/button_Checkout""))",Chrome 114.0.0.0,,,2023-06-13 15:50:21,2023-06-13 15:50:22,0.594s,PASSED
+"setText(findTestObject(""full senyum sayang/Page_Swag Labs/input_Checkout Your Information_firstName""), ""aku"")",Chrome 114.0.0.0,,,2023-06-13 15:50:22,2023-06-13 15:50:23,0.919s,PASSED
+"setText(findTestObject(""full senyum sayang/Page_Swag Labs/input_Checkout Your Information_lastName""), ""input last name"")",Chrome 114.0.0.0,,,2023-06-13 15:50:23,2023-06-13 15:50:23,0.923s,PASSED
+"setText(findTestObject(""full senyum sayang/Page_Swag Labs/input_Checkout Your Information_postalCode""), ""123"")",Chrome 114.0.0.0,,,2023-06-13 15:50:23,2023-06-13 15:50:24,1.039s,PASSED
+"click(findTestObject(""full senyum sayang/Page_Swag Labs/input_Cancel_continue""))",Chrome 114.0.0.0,,,2023-06-13 15:50:24,2023-06-13 15:50:25,0.563s,PASSED
